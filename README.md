@@ -28,8 +28,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/LuisMtz11/Recipe-Page.git)
+- Live Site URL: [RecipeNetlify](https://recipepageluis.netlify.app)
 
 ## My process
 
@@ -84,7 +84,7 @@ I used ChatGPT to help me understand some CSS concepts and fix small layout issu
 ## Author
 
 - GitHub - [LuisMtz11](https://github.com/LuisMtz11)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/LuisMtz11)
+- Frontend Mentor - [@LuisMTz11](https://www.frontendmentor.io/profile/LuisMtz11)
 
 
 ## Acknowledgments
