@@ -1,0 +1,189 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+h2 {
+    color: var(--Brown800);
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: var(--Rose800);
+}
+
+h1,
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+p,
+li {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--Stone600);
+    line-height: 1.8;
+}
+
+span {
+    font-weight: bold;
+}
+
+ul li::marker {
+    font-size: 1.2rem;
+}
+
+ol li::marker {
+    color: var(--Brown800);
+    font-weight: bold;
+}
+
+ul,
+ol {
+    padding-left: 2.2rem;
+    margin-left: 0;
+}
+
+ul li,
+ol li {
+    padding-left: 1rem;
+}
+
+li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+body {
+    font-size: 16px;
+    background-color: var(--Stone100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.divBody {
+    background-color: var(--White);
+    max-width: 100%;
+    min-height: 100%;
+    padding: 3rem;
+
+
+}
+
+.divBody img {
+    width: calc(100% + 6rem);
+    display: block;
+    margin-left: -3rem;
+    margin-right: -3rem;
+    margin-top: -3rem;
+
+}
+
+.seccion-rosa {
+    background-color: var(--Rose50);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.attribution {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--Stone150);
+    margin: 2rem 0;
+}
+
+
+
+.nutrition span {
+    color: var(--Brown800);
+}
+
+
+
+.fila {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    border-bottom: 1px solid var(--Stone150);
+    margin: 0;
+
+}
+
+.fila p {
+    padding-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.fila:last-child {
+    border-bottom: none;
+}
+
+.fila span {
+    font-family: "Outfit", sans-serif;
+}
+
+.tabla p {
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 1440px) {
+
+
+
+    .divBody {
+        max-width: 70%;
+        padding: 3rem;
+        border-radius: 2rem;
+        margin: 15% 25%;
+
+
+    }
+
+    .divBody img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 1rem;
+        margin: 0;
+
+    }
+}
